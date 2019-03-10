@@ -1,9 +1,18 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
+import './style.scss'
+
+import Header from './components/header'
+import Landing from './components/landing'
+import Search from './components/search'
+
 const App = () => {
   return (
-    <h1>Hello, World!</h1>
+    <div>
+      <Header />
+      <Search />
+    </div>
   )
 }
 
